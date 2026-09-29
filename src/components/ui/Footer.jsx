@@ -5,7 +5,7 @@ function Footer() {
 
 
     return (
-        <div className="footer">
+        <div className="container">
             <p>© 2025 Recipes</p>
         </div>
        
