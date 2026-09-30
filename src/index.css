@@ -146,3 +146,70 @@ body {
 .recipe-form button:hover {
     background: #0056b3;
 }
+
+.recipe-delete {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.2s;
+}
+
+.recipe-delete:hover {
+    background: #c82333;
+}
+
+.recipe-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.recipe-favorite {
+    padding: 6px 12px;
+    background: #ffc107;
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.2s;
+}
+
+.recipe-favorite:hover {
+    background: #e0a800;
+}
+
+.empty-message {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    margin-top: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
